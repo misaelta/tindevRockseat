@@ -9,5 +9,5 @@ const routes = express.Router()
 routes.post('/devs', DevController.store)
 routes.get('/devs', DevController.index)
 routes.post('/devs/:devId/likes',ControllerLikes.store)
-routes.post('/devs/:devId/deslikes',ControllerDeslikes.store)
+routes.post('/devs/:devId/dislikes',ControllerDeslikes.store)
 module.exports = routes;
